@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.sqlbook": "sql",
+        "*.ndjson": "jsonl",
+        "*.dbclient-js": "javascript",
+        "MLTable": "yaml",
+        "ctype.h": "c"
+    }
+}

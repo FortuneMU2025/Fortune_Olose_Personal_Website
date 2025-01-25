@@ -31,3 +31,14 @@ class Dog:
 
     def __add__(self, otherDog):
         return Dog("Puppy of " + self.name + " and " + otherDog.name, 0, 0, 0, self.speakText + " " + otherDog.speakText)
+    
+    # This is another accesor method that uses the birthday information 
+    # to return a string representing the date.
+    def birthDate(self):
+        return str(self.month) + "/" + str(self.day) + "/" + str(self.year) 
+
+    # This is a mutator method that changes the speakText of the Dog object
+    def changeBark(self,bark):
+        self.speakText = bark
+
+    
