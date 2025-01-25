@@ -1,2 +1,2 @@
-# Fortune_Olose_Personal_Website
+# Fortune Olose's Personal Website
 My first dabble into full stack web development
