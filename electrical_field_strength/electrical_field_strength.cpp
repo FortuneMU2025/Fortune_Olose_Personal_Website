@@ -17,7 +17,8 @@ public:
 
     // Calculate electric field strength
     double calculateFieldStrength() {
-        if (distance == 0) {
+        if (distance == 0) 
+        {
             throw runtime_error("Distance cannot be zero!");
         }
         return (COULOMB_CONSTANT * charge) / (distance * distance);
